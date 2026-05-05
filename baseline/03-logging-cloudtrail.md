@@ -1,0 +1,1 @@
+Created a private S3 bucket for CloudTrail logs with Block Public Access enabled, versioning enabled, and default encryption enabled (SSE-S3). Created a CloudTrail trail with management events enabled and confirmed status is Logging ON.
