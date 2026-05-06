@@ -1,9 +1,7 @@
 # cloudsec-mini-soc (AWS)
 
-This repo documents an AWS security foundation build focused on IAM hardening, cost guardrails, and audit logging using CloudTrail. It includes baseline documentation, screenshots as evidence, and a session log.
+This repository documents an AWS security foundation build focused on IAM hardening, cost guardrails, and audit logging with CloudTrail. It includes baseline documentation, evidence screenshots, and a session log.
 
-Completed:
-- Session 1: Root hardening + IAM admin + budget alerts + S3 log bucket + CloudTrail logging ON
+Completed (Session 1–2): Root account hardened with MFA, IAM admin/user created with MFA, budget alerts configured, private S3 log bucket created (encryption + versioning + no public access), and CloudTrail logging enabled.
 
-Next:
-- Session 2+: IAM least privilege policy, alerting, and incident-style writeups
+Next: IAM least-privilege policy for cse-dev, alerting, and incident-style runbooks/writeups.
